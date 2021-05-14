@@ -7,6 +7,7 @@ git clone https://github.com/faropedia/simple-chatbot-app
 cd simple-chatbot-app
 cp .env.example .env
 
+composer install
 php artisan key:generate
 
 # create database named 'simple_chat_app'
